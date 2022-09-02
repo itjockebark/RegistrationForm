@@ -1,19 +1,36 @@
+body {
+    background: url("../img/onepiece-wallpaper.jpg");
+}
 
+h1 {
+    text-align: center;
+}
+h1, label, a{
+    color:#fff;
+}
+
+span {
+    color: black;
+}
+
+div {
+    position: relative;
+}
+
+
+.blabla {
+
+}
 form {
     border: 3px solid black;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,39,43,0.742734593837535) 26%);
 }
 
-a {
-    color:red;
-}
-
-div {
-    position: relative;
-}
 .container {
     height: 160px;
 }
@@ -42,7 +59,7 @@ div {
 button {
     position: absolute;
     top:90%;
-    left:62%;
+    left:60.7%;
     transform: translate(-50%, -50%);
 }
 
@@ -59,7 +76,7 @@ button:hover {
 
 #container-box-signup {
     position: absolute;
-    right: 15.5%;
+    right: 14.3%;
     bottom: 10%;
 }
 

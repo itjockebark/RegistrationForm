@@ -10,9 +10,11 @@
     <title>Login Form</title>
 </head>
 <body>
+
 <form method="post">
+    <h1>Sign in</h1>
     <div class="img-container">
-        <img th:src="@{/img/Tamago.jpg}" alt="Tamago" class="img-tamago">
+        <img th:src="@{/img/Big-Mom-Flag.jpg}" alt="Tamago" class="img-tamago">
     </div>
     <br>
     <div class="container">
@@ -33,7 +35,7 @@
     </div>
     <div class="container">
         <span id="container-box-forgot-password">Forgot <a th:href="@{/}">password?</a></span>
-        <span id="container-box-signup"><a th:href="@{/}">Sign up</a></span>
+        <span id="container-box-signup"><a th:href="@{/signup-form}">Sign up</a></span>
         <span id="container-box-cancel"><a th:href="@{/}">Cancel</a></span>
     </div>
 </form>
