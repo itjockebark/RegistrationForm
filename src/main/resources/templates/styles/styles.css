@@ -1,0 +1,68 @@
+form {
+    border: 3px solid black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    position: relative;
+}
+.container {
+    height: 100px;
+}
+
+.container-box-username {
+    position:absolute;
+    top:0%;
+    left:49.8%;
+    transform: translate(-50%, -50%);
+}
+
+.container-box-password {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-box-repeat-password {
+    position:absolute;
+    top:60%;
+    left:47.3%;
+    transform: translate(-50%, -50%);
+}
+button {
+    position: absolute;
+    top:90%;
+    left:61%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#container-box-forgot-password {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+}
+
+#container-box-signup {
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.img-tamago {
+    width: 30%;
+    border-radius: 40%;
+}
+
