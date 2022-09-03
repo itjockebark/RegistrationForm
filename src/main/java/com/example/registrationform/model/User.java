@@ -9,8 +9,10 @@ public class User {
     @Id
     @GeneratedValue
     private Integer id;
-    String username;
-    String password;
+
+    private String username;
+
+    private String password;
 
     public User() {
     }

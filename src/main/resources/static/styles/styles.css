@@ -2,29 +2,30 @@ body {
     background: url("../img/onepiece-wallpaper.jpg");
 }
 
-h1 {
-    text-align: center;
-}
-h1, label, a{
+h1, label, a, p{
     color:#fff;
 }
 
-a:hover {
-    color: #808080;
-}
-
-span {
-    color: black;
+.black-span {
+    color: #000;
 }
 
 div {
     position: relative;
 }
 
-
-.blabla {
-
+h1, p{
+    text-align: center;
 }
+
+div p{
+    font-size: large;
+}
+
+a:hover {
+    color: #808080;
+}
+
 form {
     border: 3px solid #000;
     position: absolute;
@@ -92,6 +93,12 @@ button:hover {
 #container-box-cancel {
     position: absolute;
     left: 1%;
+    bottom: 10%;
+}
+
+#container-box-login {
+    position: absolute;
+    left: 3%;
     bottom: 10%;
 }
 

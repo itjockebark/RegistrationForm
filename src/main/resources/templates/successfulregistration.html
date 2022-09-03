@@ -1,0 +1,30 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="webjars/bootstrap/5.1.1/css/bootstrap.min.css" type="text/css">
+    <link th:href="@{/styles/styles.css}" type="text/css" rel="stylesheet"/>
+    <title>Successful registration</title>
+</head>
+<body>
+<input type="hidden" th:field="${user.id}"/>
+<form method="post">
+    <h1>Successful Registration</h1>
+    <br>
+    <div class="container">
+        <div>
+            <p>Username: <span th:text="${user.username}" class=""></span></p>
+            <p>Password: <span th:text="${user.password}" class=""></span></p>
+        </div>
+    </div>
+    <div class="container">
+        <span id="container-box-login"><a th:href="@{/login-form}">Login</a></span>
+    </div>
+</form>
+
+
+</body>
+</html>
