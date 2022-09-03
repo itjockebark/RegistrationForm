@@ -13,7 +13,7 @@
 <form method="post" th:action="@{login-form/login}">
     <h1>Login</h1>
     <div class="img-container">
-        <img th:src="@{/img/Big-Mom-Flag.jpg}" alt="Tamago" class="img-tamago">
+        <img th:src="@{/img/Big-Mom-Flag.jpg}" alt="Tamago" class="img">
     </div>
     <br>
     <div class="container">
@@ -28,7 +28,7 @@
         <button type="submit">Login</button>
     </div>
     <div class="container">
-        <span id="container-box-forgot-password" class="black-span">Forgot <a th:href="@{/forgot-password}">password?</a></span>
+        <span id="container-box-forgot-password" class="black-span">Forgot <a th:href="@{/}">password?</a></span>
         <span id="container-box-signup" class="black-span"><a th:href="@{/signup-form}">Sign up</a></span>
         <span id="container-box-cancel"><a th:href="@{/}">Cancel</a></span>
     </div>
