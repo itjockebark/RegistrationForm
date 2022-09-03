@@ -10,21 +10,21 @@
     <title>Signup form</title>
 </head>
 <body>
-<form method="post" th:action="@{signup-form/create-user}">
+<form method="post" th:action="@{signup-form/create-user}" >
     <h1>Create a user</h1>
     <div class="img-container">
-        <img th:src="@{/img/Tamago.jpg}" alt="big-mom-flag" class="img-tamago" th:object="${user}">
+        <img th:src="@{/img/Tamago.jpg}" alt="big-mom-flag" class="img-tamago">
     </div>
 
     <br>
     <div class="container">
         <div class="container-box-username">
             <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Enter Username" th:field="${user.username}" required>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required>
         </div>
         <div class="container-box-password">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter Password" th:field="${user.password}" required>
+            <input type="password" id="password" name="password" placeholder="Enter Password"  required>
         </div>
         <button type="submit">Create</button>
     </div>

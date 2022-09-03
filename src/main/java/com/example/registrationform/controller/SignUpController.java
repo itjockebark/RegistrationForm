@@ -24,13 +24,15 @@ public class SignUpController {
     @PostMapping("/signup-form/create-user")
     public String createUser(User user) {
         userService.createUser(user);
-        return "successfulregistration";
+        return "successful-registration";
     }
 
-    @GetMapping("/successfulregistration")
+    @GetMapping("/successful-registration")
     public String successfulRegistration(@PathVariable("id")Integer id, Model model) {
         User user = userService.findById(id);
         model.addAttribute("user", user);
-        return "successfulregistration";
+        return "successful-registration";
     }
+
+
 }
